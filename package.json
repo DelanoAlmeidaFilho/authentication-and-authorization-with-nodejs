@@ -1,0 +1,15 @@
+{
+    "name": "template-nodejs-express",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/shared/http/server.ts",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "lint": "eslint . --ext .ts",
+        "getDevDependencies": "npm install -D @types/cors @types/express @types/node @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-plugin-prettier prettier ts-node-dev tsconfig-paths typescript",
+        "getDependencies": "npm install cors express express-async-errors"
+    },
+    "author": "delano Almeida Filho",
+    "license": "ISC"
+}
