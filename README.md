@@ -23,6 +23,6 @@ To run the project, use the following command:
 -   [JWT](https://jwt.io)
 -   [BCrypt](https://www.npmjs.com/package/bcrypt)
 -   [JsonWebToken](www.npmjs.com/package/jsonwebtoken)
--   [tsyringe] (www.npmjs.com/package/tsyringe)
+-   [tsyringe](www.npmjs.com/package/tsyringe)
 
 <h3 align="center">Desenvolvido por  Delano Almeida filho </h3>
