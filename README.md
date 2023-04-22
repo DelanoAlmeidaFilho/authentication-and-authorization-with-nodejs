@@ -3,9 +3,9 @@ application with nodejs addressing authentication and authorization
 ## entity relationship diagram:
 
 ```mermaid
-erDiagram;
-    USER }|--|{  ROLE : contains;
-    ROLE }|--|{  PERMISSION : contains;
+erDiagram
+    USERS }|--|{ ROLES : contains
+    ROLES }|--|{ PERMISSIONS : contains
 ```
 
 ## Executing the Project
